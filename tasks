@@ -1,0 +1,8 @@
+Assignment 1 — Connect JavaScript to HTML
+Easy
+
+- Select the heading using querySelector().
+- Change the heading to TaskFlow — My Workspace.
+- Display today's date in currentDate.
+- Change the page background using JavaScript.
+  Skills: DOM selection, textContent, style, Date.
