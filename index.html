@@ -10,9 +10,13 @@
     <main class="container">
       <header class="header">
         <div>
-          <h1>TaskFlow</h1>
-          <p>Manage your productivity.</p>
+          <h1 id="pageTitle">TaskFlow</h1>
+          <p id="welcomeMessage">Manage your productivity.</p>
         </div>
+
+        <button id="changeTitleBtn">Change title</button>
+
+        <div id="taskStatus">You have pending tasks.</div>
       </header>
 
       <section class="stats">
@@ -33,7 +37,7 @@
       </section>
 
       <section class="tasks-section">
-        <h2>My Tasks</h2>
+        <h2 class="heelow">My Tasks</h2>
 
         <div class="task-list" id="taskList">
           <!-- Tasks will be managed later -->
